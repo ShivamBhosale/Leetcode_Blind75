@@ -5,7 +5,7 @@ def maxSubArray(nums):
         if curSub < 0:
             curSub = 0
         curSub += i
-        maxSub = max(maxSub, curSub)
+        maxSub = max(maxSub, curSub)``
     return maxSub
 
 print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
